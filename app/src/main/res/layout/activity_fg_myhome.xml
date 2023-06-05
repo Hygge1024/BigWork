@@ -2,6 +2,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageButton
+        android:id="@+id/my_image_button"
+        android:layout_width="46dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        android:src="@drawable/setting" />
+
     <ImageView
         android:id="@+id/profile_image"
         android:layout_width="200dp"
@@ -11,33 +21,78 @@
         android:layout_marginTop="50dp" />
 
     <TextView
+        android:id="@+id/yonghu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="21dp"
+        android:text="用户名："
+        android:textSize="18sp" />
+
+    <TextView
         android:id="@+id/username_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/profile_image"
-        android:text="用户名：Music"
-        android:textSize="18sp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="99dp"
+        android:layout_toRightOf="@+id/yonghu"
+        android:gravity="center"
+        android:text="Music1.0"
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/gender_text"
+        android:id="@+id/gender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/username_text"
-        android:text="性别：  男"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="21dp"
+        android:gravity="center"
+        android:text="性    别："
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/gender_text"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="99dp"
+        android:layout_toRightOf="@+id/gender"
+        android:text="男"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/hobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gender_text"
+        android:text="爱    好："
         android:textSize="18sp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp" />
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="21dp"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/hobby_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/gender_text"
-        android:text="爱好：听音乐"
-        android:textSize="18sp"
+        android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp" />
-
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="99dp"
+        android:layout_toRightOf="@+id/hobby"
+        android:text="听音乐"
+        android:textSize="18sp" />
 </RelativeLayout>

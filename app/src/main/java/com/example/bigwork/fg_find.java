@@ -1,10 +1,5 @@
 package com.example.bigwork;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.app.Dialog;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -23,9 +18,10 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.DataInput;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
@@ -65,8 +61,7 @@ public class fg_find extends Fragment implements SongAdapter.OnItemClickListener
         // 创建适配器并设置给 RecyclerView
         songAdapter = new SongAdapter(songTitles, this);
         songRecyclerView.setAdapter(songAdapter);
-//歌曲部分结束
-
+        //歌曲部分结束
         //这里的歌曲可以根据 前端的选择来决定播放什么
         mediaPlayer = MediaPlayer.create(getActivity(), R.raw.yanyuan);
 //        String songTitle = getSongTitle(); // 获取歌曲的名称
@@ -104,10 +99,8 @@ public class fg_find extends Fragment implements SongAdapter.OnItemClickListener
             @Override
             public void onClick(View view) {
                 showDialogWithWebView();
-//
             }
         });
-
         return view;
     }
 
@@ -145,13 +138,6 @@ public class fg_find extends Fragment implements SongAdapter.OnItemClickListener
         webSettings.setUserAgentString(userAgent);
         webSettings.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
 
-//        String encodedMusicName;
-//        try {
-//            encodedMusicName = URLEncoder.encode(musicName, "UTF-8");
-//        } catch (UnsupportedEncodingException e) {
-//            encodedMusicName = musicName;
-//            e.printStackTrace();
-//        }
         //根据musicName来加载页面
         String url = "https://music.163.com/#/song?id=32507038";
         switch (musicName){
@@ -207,9 +193,7 @@ public class fg_find extends Fragment implements SongAdapter.OnItemClickListener
                 url = "https://music.163.com/#/song?id=32507038";
                 break;
         }
-
         // 加载网页
-
         webView.loadUrl(url);
         // 显示对话框
         dialog.show();
@@ -219,7 +203,6 @@ public class fg_find extends Fragment implements SongAdapter.OnItemClickListener
             progressBarTimer.cancel();
             progressBarTimer = null;
         }
-
         if (isProgressBarUpdating) {
             progressBarTimer = new Timer();
             progressBarTimer.scheduleAtFixedRate(new TimerTask() {
@@ -290,7 +273,6 @@ public class fg_find extends Fragment implements SongAdapter.OnItemClickListener
             startProgressBarUpdate();
         }
         // 在这里执行播放歌曲的操作，可以根据歌曲标题来获取相应的歌曲数据并进行播放
-//        Toast.makeText(getActivity(), "正在播放：" + songTitle, Toast.LENGTH_LONG).show();
         Toast toast = Toast.makeText(getActivity(), "正在播放：" + songTitle, Toast.LENGTH_LONG);
         // 设置 Toast 的位置参数
         toast.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 250);

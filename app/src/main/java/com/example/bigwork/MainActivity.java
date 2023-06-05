@@ -1,20 +1,16 @@
 package com.example.bigwork;
 
 
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.view.Window;
+import android.widget.FrameLayout;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.Window;
-import android.widget.Button;
-import android.widget.FrameLayout;
-import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 //    private TextView txt_topbar;
@@ -41,22 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         fManager = getSupportFragmentManager();//获取Fragement组件
         bindView();
         txt_find.performClick();//模拟一次点击，既进去后选择,也就是最开始进去的
-
-
-        //点击button事件
-        // 将布局文件转换为视图对象
-//        View view = LayoutInflater.from(this).inflate(R.layout.activity_fg_find, null);
-        // 查找按钮对象
-//        Button btn_find01 = view.findViewById(R.id.btn_find01);
-
-//        // 设置点击事件监听器
-//        btn_find01.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Toast.makeText(MainActivity.this, "按钮被点击了", Toast.LENGTH_SHORT).show();
-//                Log.e("btn listener:", "btn_find is clicked!");
-//            }
-//        });
 
     }
     //Ui组件初始化与事件绑定

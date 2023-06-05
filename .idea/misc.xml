@@ -6,15 +6,19 @@
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/drawable-v24/border.xml" value="0.1" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/drawable/close_gray.xml" value="0.111" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/activity_chat.xml" value="0.2" />
+        <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/activity_edit.xml" value="0.2296875" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/activity_fg_context.xml" value="0.1265625" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/activity_fg_find.xml" value="0.264" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/activity_fg_message.xml" value="0.17864583333333334" />
-        <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/activity_fg_myhome.xml" value="0.2" />
-        <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/activity_fg_setting.xml" value="0.2" />
-        <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/activity_fg_myhome.xml" value="0.264" />
+        <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/activity_fg_setting.xml" value="0.264" />
+        <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/activity_main2.xml" value="0.1265625" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/activity_ttttt.xml" value="0.1796875" />
+        <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/chat_item.xml" value="0.2" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/dialog_webview.xml" value="0.192481884057971" />
+        <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/fg_chat.xml" value="0.1" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/fg_content.xml" value="0.2" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/fg_find.xml" value="0.24114583333333334" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/fg_message.xml" value="0.24114583333333334" />
@@ -22,6 +26,7 @@
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/fg_setting.xml" value="0.24010416666666667" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/item_music_rv_list.xml" value="0.2375" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/item_song.xml" value="0.1" />
+        <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/msg_item.xml" value="0.264" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/music_location.xml" value="0.2375" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/play_control_layout.xml" value="0.4" />
         <entry key="..\:/AndroidCode/AndroidStudioProjects/BigWork/app/src/main/res/layout/song_item.xml" value="0.215625" />
